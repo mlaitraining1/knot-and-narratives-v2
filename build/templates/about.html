@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+
+<header class="page-header hero--short">
+  <div class="page-header-media"><img src="/images/gallery/hero-about.jpg" alt=""></div>
+  <div class="container">
+    <p class="crumb"><a href="/">Home</a> / About</p>
+    <h1>About the studio</h1>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div class="img-frame reveal" style="aspect-ratio:4/5">
+        <img src="/images/gallery/about-portrait.jpg" alt="Nilanjan Das, founder and lead photographer" loading="lazy" width="1000" height="1250">
+      </div>
+      <div class="reveal reveal-delay-2">
+        <p class="eyebrow">Founder &amp; lead photographer</p>
+        <h2>Nilanjan Das</h2>
+        <p class="u-mt-m" style="color:var(--ink-soft)">the Knot and Narratives is a wedding photography and cinematic film studio based in Agartala. Every wedding is shot with the same goal — honest, natural photographs and films that feel like your day, not a performance.</p>
+        <div class="pill-list u-mt-m">
+          <span>Wedding Photography</span><span>Pre-Wedding Shoots</span><span>Cinematic Films</span>
+        </div>
+        <button type="button" class="btn btn-primary u-mt-l" data-contact-trigger>Get in Touch</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">Why couples choose us</p>
+    </div>
+    <div class="grid grid-3 stagger">
+      <div class="value-card card reveal">
+        <h4>Natural, not staged</h4>
+        <p style="color:var(--ink-soft); font-size:0.92rem; margin-top:0.5rem;">Documentary-style coverage that captures real moments as they happen.</p>
+      </div>
+      <div class="value-card card reveal reveal-delay-1">
+        <h4>Clear communication</h4>
+        <p style="color:var(--ink-soft); font-size:0.92rem; margin-top:0.5rem;">One point of contact from enquiry to delivery — no chasing for updates.</p>
+      </div>
+      <div class="value-card card reveal reveal-delay-2">
+        <h4>On-time delivery</h4>
+        <p style="color:var(--ink-soft); font-size:0.92rem; margin-top:0.5rem;">A sneak peek within days, full galleries within weeks — every time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight u-center">
+  <div class="container reveal">
+    <h2 style="max-width:22ch; margin-inline:auto;">Let's talk about your day</h2>
+    <div class="hero-cta" style="justify-content:center; margin-top:var(--space-l);">
+      <button type="button" class="btn btn-primary" data-contact-trigger>Contact Us</button>
+      <a href="https://wa.me/917005534706" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+
+<header class="page-header">
+  <div class="page-header-media"><img src="/images/gallery/hero-portfolio.jpg" alt=""></div>
+  <div class="container">
+    <p class="crumb"><a href="/">Home</a> / Portfolio</p>
+    <h1>Portfolio</h1>
+    <p class="lede u-mt-m" style="max-width:56ch">A working sample of recent weddings and pre-wedding shoots.</p>
+  </div>
+</header>
+
+<section class="section section--tight section--deep">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">See it in motion</p>
+      <h2>A Sample Cinematic Film</h2>
+    </div>
+    <div class="film-player reveal">
+      <video controls preload="metadata" poster="/images/gallery/portfolio-film-poster.jpg" playsinline>
+        <source src="/videos/portfolio-film-sample.webm" type="video/webm">
+        <source src="/videos/portfolio-film-sample.mp4" type="video/mp4">
+        Your browser doesn't support embedded video. <a href="/videos/portfolio-film-sample.mp4">Download the sample film</a> instead.
+      </video>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn is-active" data-filter="all">All Work</button>
+      <button class="filter-btn" data-filter="wedding">Weddings</button>
+      <button class="filter-btn" data-filter="prewedding">Pre-Wedding</button>
+      <button class="filter-btn" data-filter="portraits">Portraits</button>
+    </div>
+
+    <div class="masonry">
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-01.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-01.jpg" alt="Bride portrait in golden hour light" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="prewedding"><img data-lightbox-src="/images/gallery/portfolio-02.jpg" data-lightbox-caption="Pre-Wedding Shoot" src="/images/gallery/portfolio-02.jpg" alt="Pre-wedding couple shoot" loading="lazy"><span class="tag">Pre-Wedding Shoot</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-03.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-03.jpg" alt="Wedding processional candid" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-04.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-04.jpg" alt="Wedding destination shoot" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-05.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-05.jpg" alt="Wedding reception moment" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="prewedding"><img data-lightbox-src="/images/gallery/portfolio-06.jpg" data-lightbox-caption="Pre-Wedding Shoot" src="/images/gallery/portfolio-06.jpg" alt="Pre-wedding outdoor shoot" loading="lazy"><span class="tag">Pre-Wedding Shoot</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-07.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-07.jpg" alt="Traditional wedding ceremony rituals" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="portraits"><img data-lightbox-src="/images/gallery/portfolio-08.jpg" data-lightbox-caption="Portrait" src="/images/gallery/portfolio-08.jpg" alt="Groom portrait session" loading="lazy"><span class="tag">Portrait</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-09.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-09.jpg" alt="Wedding reception evening" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="prewedding"><img data-lightbox-src="/images/gallery/portfolio-10.jpg" data-lightbox-caption="Pre-Wedding Shoot" src="/images/gallery/portfolio-10.jpg" alt="Pre-wedding hill shoot" loading="lazy"><span class="tag">Pre-Wedding Shoot</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-11.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-11.jpg" alt="Wedding entry procession" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="portraits"><img data-lightbox-src="/images/gallery/portfolio-12.jpg" data-lightbox-caption="Portrait" src="/images/gallery/portfolio-12.jpg" alt="Bridal jewellery detail shot" loading="lazy"><span class="tag">Portrait</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-13.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-13.jpg" alt="Wedding group photography" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-14.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-14.jpg" alt="Wedding reception candid moment" loading="lazy"><span class="tag">Wedding Photography</span></div>
+      <div class="masonry-item" data-category="wedding"><img data-lightbox-src="/images/gallery/portfolio-15.jpg" data-lightbox-caption="Wedding Photography" src="/images/gallery/portfolio-15.jpg" alt="Wedding ceremony details" loading="lazy"><span class="tag">Wedding Photography</span></div>
+    </div>
+
+    <div class="u-center u-mt-l">
+      <button type="button" class="btn btn-primary" data-contact-trigger>Enquire About Your Date</button>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

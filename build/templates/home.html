@@ -1,0 +1,257 @@
+{% extends "base.html" %}
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "the Knot and Narratives",
+  "image": "{{ site_url }}/images/gallery/og-cover.jpg",
+  "url": "{{ site_url }}/",
+  "telephone": "+91-70055-34706",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pragati Rd, near Deep Ice Cream Factory, Krishna Nagar",
+    "addressLocality": "Agartala",
+    "addressRegion": "Tripura",
+    "postalCode": "799001",
+    "addressCountry": "IN"
+  },
+  "sameAs": ["https://instagram.com", "https://youtube.com", "https://share.google/cgbawdFWJofl4pnKY"],
+  "description": "{{ meta_description }}"
+}
+</script>
+{% endblock %}
+{% block content %}
+
+<section class="hero" id="top">
+  <div class="hero-media" data-hero-slideshow>
+    <img class="hero-slide is-active" src="/images/gallery/hero-home.jpg" alt="" role="presentation">
+    <img class="hero-slide" src="/images/gallery/hero-home-2.jpg" alt="" role="presentation">
+    <img class="hero-slide" src="/images/gallery/hero-home-3.jpg" alt="" role="presentation">
+    <img class="hero-slide" src="/images/gallery/hero-home-4.jpg" alt="" role="presentation">
+    <video class="hero-slide" muted playsinline preload="metadata" poster="/images/gallery/hero-film-poster.jpg" aria-hidden="true">
+      <source src="/videos/hero-film-sample.webm" type="video/webm">
+      <source src="/videos/hero-film-sample.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <button class="hero-nav-arrow hero-nav-prev" aria-label="Previous background">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <button class="hero-nav-arrow hero-nav-next" aria-label="Next background">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+  </button>
+  <div class="hero-dots"></div>
+
+  <div class="container hero-content">
+    <p class="hero-eyebrow">Agartala, Tripura · Destination shoots welcome</p>
+    <h1 class="hero-title">Love, <em>choreographed</em>.<br> Moments, narrated.</h1>
+    <p class="hero-sub">Wedding photography and cinematic films by the Knot and Narratives.</p>
+    <div class="hero-cta">
+      <a href="/portfolio.html" class="btn btn-gold">View Our Work</a>
+      <a href="https://wa.me/917005534706?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20photography%20packages" target="_blank" rel="noopener" class="btn btn-outline whatsapp-btn-outline">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.005c5.46 0 9.91-4.45 9.91-9.91C21.98 6.45 17.53 2 12.04 2zm5.8 14.02c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.16-4.94-4.35-.15-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.52-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.13-.28.28-.12.55.15.27.68 1.13 1.47 1.83 1.01.9 1.87 1.18 2.14 1.31.27.13.42.11.58-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.6-.13.24.09 1.53.72 1.79.85.27.13.44.19.51.3.07.11.07.63-.16 1.31z"/></svg>
+        WhatsApp Us
+      </a>
+    </div>
+  </div>
+  <div class="hero-scroll"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">Portfolio</p>
+      <h2>A few of our favourite frames</h2>
+    </div>
+    <div class="masonry stagger">
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-01.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-01.jpg" alt="Wedding photography, golden hour portrait" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-02.jpg" data-lightbox-caption="Pre-wedding shoot" src="/images/gallery/portfolio-02.jpg" alt="Pre-wedding shoot" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-03.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-03.jpg" alt="Wedding candid photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-04.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-04.jpg" alt="Destination wedding photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-05.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-05.jpg" alt="Wedding reception photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-06.jpg" data-lightbox-caption="Pre-wedding shoot" src="/images/gallery/portfolio-06.jpg" alt="Pre-wedding couple shoot" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-07.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-07.jpg" alt="Wedding ceremony photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-08.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-08.jpg" alt="Groom portrait photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-09.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-09.jpg" alt="Wedding reception evening photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-10.jpg" data-lightbox-caption="Pre-wedding shoot" src="/images/gallery/portfolio-10.jpg" alt="Pre-wedding outdoor shoot" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-11.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-11.jpg" alt="Wedding entry photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-12.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-12.jpg" alt="Bridal detail photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-13.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-13.jpg" alt="Wedding group photography" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-14.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-14.jpg" alt="Wedding reception candid" loading="lazy"></div>
+      <div class="masonry-item reveal"><img data-lightbox-src="/images/gallery/portfolio-15.jpg" data-lightbox-caption="Wedding photography" src="/images/gallery/portfolio-15.jpg" alt="Wedding ceremony details" loading="lazy"></div>
+    </div>
+    <div class="u-center u-mt-l reveal">
+      <a href="/portfolio.html" class="btn btn-outline">See Full Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">Cinematic video</p>
+      <h2>Watch our films</h2>
+    </div>
+    <div class="video-showcase reveal">
+      <div class="video-tile video-tile-main">
+        <video muted playsinline loop preload="metadata" poster="/images/gallery/hero-film-poster.jpg">
+          <source src="/videos/hero-film-sample.webm" type="video/webm">
+          <source src="/videos/hero-film-sample.mp4" type="video/mp4">
+        </video>
+        <span class="video-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <span class="video-tile-caption">Wedding Film — Sample</span>
+      </div>
+      <div class="video-showcase-small">
+        <div class="video-tile video-tile-small">
+          <video muted playsinline preload="metadata" poster="/images/gallery/portfolio-film-poster.jpg">
+            <source src="/videos/portfolio-film-sample.webm" type="video/webm">
+            <source src="/videos/portfolio-film-sample.mp4" type="video/mp4">
+          </video>
+          <span class="video-play-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="video-tile-caption">Pre-Wedding Film</span>
+        </div>
+        <div class="video-tile video-tile-small">
+          <video muted playsinline preload="metadata" poster="/images/gallery/showcase-c-poster.jpg">
+            <source src="/videos/showcase-c.webm" type="video/webm">
+            <source src="/videos/showcase-c.mp4" type="video/mp4">
+          </video>
+          <span class="video-play-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="video-tile-caption">Cinematic Highlight</span>
+        </div>
+        <div class="video-tile video-tile-small">
+          <video muted playsinline preload="metadata" poster="/images/gallery/showcase-d-poster.jpg">
+            <source src="/videos/showcase-d.webm" type="video/webm">
+            <source src="/videos/showcase-d.mp4" type="video/mp4">
+          </video>
+          <span class="video-play-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="video-tile-caption">Reception Film</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">Recent work</p>
+      <h2>A few weddings we've told</h2>
+    </div>
+    <div class="grid grid-4 stagger">
+      <a href="/portfolio.html" class="story-card reveal">
+        <div class="img-frame" style="aspect-ratio:4/5"><img src="/images/gallery/portfolio-01.jpg" alt="Recent wedding — Agartala" loading="lazy" width="900" height="1125"></div>
+        <div class="meta u-mt-m"><span>Wedding</span></div>
+        <h4>Riya &amp; Aniket</h4>
+      </a>
+      <a href="/portfolio.html" class="story-card reveal reveal-delay-1">
+        <div class="img-frame" style="aspect-ratio:4/5"><img src="/images/gallery/portfolio-06.jpg" alt="Recent pre-wedding shoot" loading="lazy" width="900" height="1125"></div>
+        <div class="meta u-mt-m"><span>Pre-Wedding</span></div>
+        <h4>Debolina &amp; Sourav</h4>
+      </a>
+      <a href="/portfolio.html" class="story-card reveal reveal-delay-2">
+        <div class="img-frame" style="aspect-ratio:4/5"><img src="/images/gallery/portfolio-09.jpg" alt="Recent wedding reception" loading="lazy" width="900" height="1125"></div>
+        <div class="meta u-mt-m"><span>Wedding</span></div>
+        <h4>Momita &amp; Arjun</h4>
+      </a>
+      <a href="/portfolio.html" class="story-card reveal reveal-delay-3">
+        <div class="img-frame" style="aspect-ratio:4/5"><img src="/images/gallery/portfolio-11.jpg" alt="Recent wedding entry" loading="lazy" width="900" height="1125"></div>
+        <div class="meta u-mt-m"><span>Wedding</span></div>
+        <h4>Priyanka &amp; Rohit</h4>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">Real stories, genuine moments</p>
+      <h2>What our clients say</h2>
+    </div>
+    <div class="testimonial-slider" data-testimonial-slider>
+      <div class="testimonial-slide is-active">
+        <blockquote>"Beautiful, natural photos — no awkward posing, just our actual wedding day captured the way it happened."</blockquote>
+        <p class="who">— Google Review</p>
+      </div>
+      <div class="testimonial-slide">
+        <blockquote>"The cinematic film gave us goosebumps. We've rewatched it more times than we can count."</blockquote>
+        <p class="who">— Google Review</p>
+      </div>
+      <div class="testimonial-slide">
+        <blockquote>"Punctual, professional, and genuinely lovely to have around on the big day. Highly recommend."</blockquote>
+        <p class="who">— Google Review</p>
+      </div>
+      <div class="testimonial-dots"></div>
+    </div>
+    <div class="u-center u-mt-l reveal">
+      <a href="https://share.google/cgbawdFWJofl4pnKY" target="_blank" rel="noopener" class="btn btn-outline">Read Our Google Reviews</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight" id="talk-to-us">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">Let's talk</p>
+      <h2>Tell us about your day</h2>
+    </div>
+    <div class="talk-to-us-grid reveal">
+      <a href="https://wa.me/917005534706?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20photography%20packages" target="_blank" rel="noopener" class="btn whatsapp-btn talk-to-us-whatsapp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.005c5.46 0 9.91-4.45 9.91-9.91C21.98 6.45 17.53 2 12.04 2zm5.8 14.02c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.16-4.94-4.35-.15-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.52-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.13-.28.28-.12.55.15.27.68 1.13 1.47 1.83 1.01.9 1.87 1.18 2.14 1.31.27.13.42.11.58-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.6-.13.24.09 1.53.72 1.79.85.27.13.44.19.51.3.07.11.07.63-.16 1.31z"/></svg>
+        Chat on WhatsApp — 70055 34706
+      </a>
+      <!--
+        FORMSPREE: this inline form posts to the same Formspree endpoint as
+        the header "Contact Us" popup. Set your form ID once in base.html's
+        modal form and copy the same action URL here.
+      -->
+      <form id="home-contact-form" class="js-contact-form talk-to-us-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="New enquiry — the Knot and Narratives website">
+        <input type="text" name="_gotcha" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="grid grid-2">
+          <div class="field">
+            <label for="home-name">Full name *</label>
+            <input type="text" id="home-name" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="home-phone">Phone / WhatsApp *</label>
+            <input type="tel" id="home-phone" name="phone" required autocomplete="tel">
+          </div>
+        </div>
+        <div class="field">
+          <label for="home-message">A little about your event *</label>
+          <textarea id="home-message" name="message" required placeholder="Wedding, pre-wedding, birthday..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%">Send Enquiry</button>
+        <p class="form-status u-mt-m" role="status" aria-live="polite" style="font-size:0.88rem;"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="photo-ribbon">
+  <div class="ribbon-row dir-left">
+    <div class="ribbon-track">
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-01.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-02.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-04.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-07.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-09.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-11.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-13.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-15.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-01.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-02.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-04.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-07.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-09.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-11.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-13.jpg" alt="" loading="lazy"></div>
+      <div class="ribbon-item"><img src="/images/gallery/portfolio-15.jpg" alt="" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

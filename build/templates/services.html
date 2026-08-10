@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+
+<header class="page-header">
+  <div class="page-header-media"><img src="/images/gallery/hero-services.jpg" alt=""></div>
+  <div class="container">
+    <p class="crumb"><a href="/">Home</a> / Services</p>
+    <h1>Services</h1>
+    <p class="lede u-mt-m" style="max-width:56ch">Photography and cinematic films for weddings, pre-weddings, and life's other big days.</p>
+  </div>
+</header>
+
+<section class="section section--tight">
+  <div class="container">
+
+    <div class="service-row reveal" id="prewedding">
+      <div><span class="idx">Pre-Wed</span></div>
+      <div>
+        <h3>Pre-Wedding Shoot</h3>
+        <p style="color:var(--ink-soft); margin-top:0.6rem;">A location that means something to you, shot naturally — not a stock backdrop.</p>
+      </div>
+    </div>
+
+    <div class="service-row reveal" id="photography">
+      <div><span class="idx">Photo</span></div>
+      <div>
+        <h3>Wedding Photography</h3>
+        <p style="color:var(--ink-soft); margin-top:0.6rem;">Full-day documentary coverage plus directed portraits, from getting-ready to the last dance.</p>
+      </div>
+    </div>
+
+    <div class="service-row reveal" id="films">
+      <div><span class="idx">Film</span></div>
+      <div>
+        <h3>Wedding Videography &amp; Cinematic Video</h3>
+        <p style="color:var(--ink-soft); margin-top:0.6rem;">A same-day highlight reel plus a longer cinematic film you'll want to rewatch every anniversary.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section section--deep section--tight">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center">Also available</p>
+      <h2>Other occasions we shoot</h2>
+    </div>
+    <div class="grid grid-2 stagger" style="max-width:760px; margin-inline:auto;">
+      <div class="card reveal" id="babyshower" style="padding:var(--space-m); text-align:center;">
+        <h4>Baby Shower Photography</h4>
+      </div>
+      <div class="card reveal reveal-delay-1" id="birthday" style="padding:var(--space-m); text-align:center;">
+        <h4>Birthday Photography</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight u-center">
+  <div class="container reveal">
+    <p class="eyebrow" style="justify-content:center">Ready to plan the day</p>
+    <h2 style="max-width:24ch; margin-inline:auto;">See what's included in each package</h2>
+    <div class="hero-cta" style="justify-content:center; margin-top:var(--space-l);">
+      <a href="/pricing.html" class="btn btn-primary">View Pricing</a>
+      <button type="button" class="btn btn-outline" data-contact-trigger>Ask a Question</button>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

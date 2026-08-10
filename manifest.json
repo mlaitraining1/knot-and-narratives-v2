@@ -1,0 +1,13 @@
+{
+  "name": "the Knot and Narratives — Wedding Photography & Cinematic Video",
+  "short_name": "Knot and Narratives",
+  "description": "Wedding photography and cinematic films based in Agartala, Tripura.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF6EC",
+  "theme_color": "#1B2E28",
+  "icons": [
+    { "src": "/images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

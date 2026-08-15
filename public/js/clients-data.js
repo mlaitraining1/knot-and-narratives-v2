@@ -33,7 +33,6 @@ window.CLIENT_GALLERIES = {
     name: "Priya & Nikhil — Sample Gallery",
     url: "https://drive.google.com/drive/folders/REPLACE_WITH_REAL_FOLDER_ID"
   }
-
   ,"MOU2026": {
     name: "Mou & Sandeep",
     url: "https://drive.google.com/drive/folders/1c6YZide6lVMNx0lm3GOaZWvwXSs_I8hb"

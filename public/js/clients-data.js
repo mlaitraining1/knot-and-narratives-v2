@@ -32,12 +32,18 @@ window.CLIENT_GALLERIES = {
   "DEMO2026": {
     name: "Priya & Nikhil — Sample Gallery",
     url: "https://drive.google.com/drive/folders/REPLACE_WITH_REAL_FOLDER_ID"
-  }
+  },
 
-  // Add new clients above this line, like:
-  // ,"PRIYA2026": {
-  //   name: "Priya & Rohan",
-  //   url: "https://drive.google.com/drive/folders/xxxxxxxxxxxxxxxxxxxx"
+  "MOU2026": {
+    name: "Mou & Sandeep",
+    url: "https://drive.google.com/drive/folders/1c6YZide6lVMNx0lm3GOaZWvwXSs_I8hb"
+  }
+  
+   
+   // Add new clients above this line, like:
+  // ,"MOU2026": {
+  //   name: "Mou & Sandeep",
+  //   url: "https://drive.google.com/drive/folders/1c6YZide6lVMNx0lm3GOaZWvwXSs_I8hb"
   // }
 
 };
